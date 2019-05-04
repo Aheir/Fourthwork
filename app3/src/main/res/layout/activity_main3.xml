@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/my_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:width="390px"
+        android:text="数据库访问测试"
+        />
+    <EditText
+        android:id="@+id/my_content1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="请单击在此处输入"
+        />
+    <EditText
+        android:id="@+id/my_content2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="请单击此处输入"/>
+    <Button
+        android:id="@+id/insert"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="插入"
+        />
+    <ListView
+        android:id="@+id/show"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    </ListView>
+
+</LinearLayout>
